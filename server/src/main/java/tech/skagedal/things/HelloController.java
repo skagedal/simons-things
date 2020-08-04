@@ -3,9 +3,9 @@ package tech.skagedal.things;
 import io.micronaut.http.MediaType;
 import io.micronaut.http.annotation.Controller;
 import io.micronaut.http.annotation.Get;
+import io.reactivex.rxjava3.core.Single;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.slf4j.helpers.BasicMarker;
 
 @Controller("/hello")
 public class HelloController {
@@ -16,5 +16,18 @@ public class HelloController {
     public String index() {
         logger.info("Returning Hello World");
         return "Hello World";
+    }
+
+    @Get("/foo")
+    public Single<Person> getFoo() {
+        return Single.just(new Person("hello"));
+    }
+
+    public static class Person {
+        final String name;
+
+        public Person(String name) {
+            this.name = name;
+        }
     }
 }
