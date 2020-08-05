@@ -54,8 +54,8 @@ test {
 }
 
 java {
-    sourceCompatibility = JavaVersion.toVersion('14')
-    targetCompatibility = JavaVersion.toVersion('14')
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
 }
 
 tasks.withType(JavaCompile) {
