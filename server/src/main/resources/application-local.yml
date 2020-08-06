@@ -1,0 +1,17 @@
+vertx:
+  mysql:
+    client:
+      host: localhost
+      port: 4000
+      database: simonsthings
+      user: root
+      password:
+      maxSize: 5
+
+flyway:
+  datasources:
+    default:
+      url: jdbc:mysql://localhost:4000/simonsthings
+      user: root
+      password: ""
+
