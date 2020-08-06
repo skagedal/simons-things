@@ -1,0 +1,18 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Application" type="Application" factoryName="Application" nameIsGenerated="true">
+    <envs>
+      <env name="MICRONAUT_ENVIRONMENTS" value="local" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="tech.skagedal.things.Application" />
+    <module name="simonsthings.main" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="tech.skagedal.things.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
