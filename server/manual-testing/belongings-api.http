@@ -1,0 +1,15 @@
+### Add user
+POST http://localhost:8080/api/belongings/users
+Content-Type: application/json
+
+{"username": "simon"}
+
+### List users
+GET http://localhost:8080/api/belongings/users
+
+### Get a single user
+GET http://localhost:8080/api/belongings/users/simon
+
+### This is a testing thing
+GET http://localhost:8080/hello/foo
+

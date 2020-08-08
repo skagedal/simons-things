@@ -1,12 +1,10 @@
-vertx:
-  mysql:
-    client:
-      host: localhost
-      port: 4000
-      database: simonsthings
-      user: root
-      password:
-      maxSize: 5
+datasources:
+  default:
+    url: jdbc:mysql://localhost:4000/simonsthings
+    username: root
+    password: ''
+    dialect: mysql
+    driver-class-name: com.mysql.cj.jdbc.Driver
 
 flyway:
   datasources:

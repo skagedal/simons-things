@@ -7,7 +7,7 @@
     <module name="simonsthings.main" />
     <extension name="coverage">
       <pattern>
-        <option name="PATTERN" value="tech.skagedal.things.*" />
+        <option name="PATTERN" value="tech.skagedal.things.users.*" />
         <option name="ENABLED" value="true" />
       </pattern>
     </extension>
