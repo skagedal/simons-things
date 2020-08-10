@@ -8,7 +8,7 @@ Content-Type: application/json
 GET http://localhost:8080/api/belongings/users
 
 ### Get a single user
-GET http://localhost:8080/api/belongings/users/simon
+GET http://localhost:8080/api/belongings/users/7e77767a-2532-4b45-a6dc-d9cda7a68851
 
 ### This is a testing thing
 GET http://localhost:8080/hello/foo
